@@ -8,6 +8,7 @@ import { AdminComponent } from './admin/admin.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule } from '@angular/common/http';
+import { ViewcourseComponent } from './viewcourse/viewcourse.component';
 
 const myRoute:Routes=[
 
@@ -17,7 +18,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     HomeComponent,
-    AdminComponent
+    AdminComponent,
+    ViewcourseComponent
   ],
   imports: [
     BrowserModule,

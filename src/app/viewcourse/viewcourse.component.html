@@ -1,0 +1,23 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">TITLE</th>
+        <th scope="col">DESCRIPTION</th>
+        <th scope="col">DURATION</th>
+        <th scope="col">DATE</th>
+        <th scope="col">VENUE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of data">
+        <td>{{i._id}}</td>
+        <td>{{i.courseTitle}}</td>
+        <td>{{i.courseDescription}}</td>
+        <td>{{i.courseDuration}}</td>
+        <td>{{i.courseDate}}</td>
+        <td>{{i.courseVenue}}</td>
+      </tr>
+      <tr>
+    </tbody>
+  </table>
