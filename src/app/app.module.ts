@@ -11,11 +11,12 @@ import {HttpClientModule } from '@angular/common/http';
 import { ViewcourseComponent } from './viewcourse/viewcourse.component';
 import { ViewfriendComponent } from './viewfriend/viewfriend.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AddemployeeComponent } from './addemployee/addemployee.component';
 
 
 const myRoute:Routes=[
 {
-  path:"",
+  path:"firstpage",
   component:HomeComponent
 },
 {
@@ -33,6 +34,10 @@ const myRoute:Routes=[
 {
   path:"nav",
   component:NavbarComponent
+},
+{
+  path:"emp",
+  component:AddemployeeComponent
 }
 ]
 
@@ -44,6 +49,7 @@ const myRoute:Routes=[
     ViewcourseComponent,
     ViewfriendComponent,
     NavbarComponent,
+    AddemployeeComponent,
   ],
   imports: [
     BrowserModule,
