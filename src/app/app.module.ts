@@ -9,6 +9,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule } from '@angular/common/http';
 import { ViewcourseComponent } from './viewcourse/viewcourse.component';
+import { ViewfriendComponent } from './viewfriend/viewfriend.component';
+
 
 const myRoute:Routes=[
 
@@ -19,7 +21,8 @@ const myRoute:Routes=[
     AppComponent,
     HomeComponent,
     AdminComponent,
-    ViewcourseComponent
+    ViewcourseComponent,
+    ViewfriendComponent,
   ],
   imports: [
     BrowserModule,
