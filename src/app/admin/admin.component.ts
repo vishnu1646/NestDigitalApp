@@ -10,12 +10,13 @@ export class AdminComponent {
 username=""
 password=""
 constructor(private r:Router){}
-login=()=>{
+   login=()=>{
   if(this.username=="admin" && this.password=="nestdigital"){
-    this.r.navigate([])
+    this.r.navigate(['nav'])
   
   }else{
-    console.log("Invalid")
+    alert("Invalid")
+    
   }
 }
 }
