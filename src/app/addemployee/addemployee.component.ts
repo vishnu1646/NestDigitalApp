@@ -12,7 +12,7 @@ password=""
 constructor(private r:Router){}
   login=()=>{
     if(this.id=="1122"&&this.password=="12345"){
-      this.r.navigate([])
+      this.r.navigate(['addcourse'])
     }
     else{
       alert("Invalid Credential")

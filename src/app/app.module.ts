@@ -12,11 +12,12 @@ import { ViewcourseComponent } from './viewcourse/viewcourse.component';
 import { ViewfriendComponent } from './viewfriend/viewfriend.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AddemployeeComponent } from './addemployee/addemployee.component';
+import { AddcourseComponent } from './addcourse/addcourse.component';
 
 
 const myRoute:Routes=[
 {
-  path:"firstpage",
+  path:"",
   component:HomeComponent
 },
 {
@@ -38,6 +39,10 @@ const myRoute:Routes=[
 {
   path:"emp",
   component:AddemployeeComponent
+},
+{
+  path:"addcourse",
+  component:AddcourseComponent
 }
 ]
 
@@ -50,6 +55,7 @@ const myRoute:Routes=[
     ViewfriendComponent,
     NavbarComponent,
     AddemployeeComponent,
+    AddcourseComponent,
   ],
   imports: [
     BrowserModule,
