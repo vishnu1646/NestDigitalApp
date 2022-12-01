@@ -16,6 +16,8 @@ import { AddcourseComponent } from './addcourse/addcourse.component';
 import { AddfriendComponent } from './addfriend/addfriend.component';
 import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component';
 import { EmpSignupComponent } from './emp-signup/emp-signup.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 
 const myRoute:Routes=[
@@ -54,6 +56,14 @@ const myRoute:Routes=[
 {
   path:"empsignup",
   component:EmpSignupComponent
+},
+{
+  path:"gallery",
+  component:GalleryComponent
+},
+{
+  path:"contact",
+  component:ContactusComponent
 }
 ]
 
@@ -70,6 +80,8 @@ const myRoute:Routes=[
     AddfriendComponent,
     EmployeeNavbarComponent,
     EmpSignupComponent,
+    GalleryComponent,
+    ContactusComponent,
   ],
   imports: [
     BrowserModule,

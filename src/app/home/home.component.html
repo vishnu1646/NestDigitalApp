@@ -1,30 +1,60 @@
 <nav class="navbar navbar-expand-lg bg-secondary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">NeST Digital</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="">Home</a>
+            <a class="nav-link active" aria-current="page" routerLink="">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="admin">Admin Login</a>
+            <a class="nav-link" routerLink="admin">Admin Login</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               About 
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Gallery</a></li>
-              <li><a class="dropdown-item" href="#">Contact us</a></li>
+              <li><a class="dropdown-item" routerLink="gallery">Gallery</a></li>
+              <li><a class="dropdown-item" href="contact">Contact us</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="emp">Employee</a>
+            <a class="nav-link" routerLink="emp">Employee</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <section class="leadershipSec aboutSECONE defaultPadding">
+    <div class="container">
+        <div class="row  text-center">
+            <div class="col-lg-6 borderRight">
+                <div class="item">
+                    <div class="iconTop">
+                        <img src="/images/inspiration.png" alt="">
+                    </div>
+                    <h3>WHO WE ARE &amp; WHAT WE DO</h3>
+                    <h4>Engineering Transformation</h4>
+                    <div class="aboutDesc text-center">
+                        NeST Digital is the software arm of the globally trusted NeST Group of companies. We combine our Specialized Manufacturing Services, Engineering Design and Software Services under one roof to provide transformative turnkey solutions to customers.
+                   </div>			
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="item">
+                    <div class="iconTop">
+                        <img src="/images/value.png" alt="">
+                    </div>
+                    <h3>WHAT WE BELIEVE</h3>
+                    <h4>Our core values make us who we are today</h4>
+                    <div class="aboutDesc text-center">
+                        Our purpose and principles have shaped us into who we are today and they enable us to strive for greater heights. Every decision we make is closely aligned with our principles. These help us raise our bar, dive deep into challenges to achieve game-changing outcomes.
+                    </div>			
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -7,6 +7,7 @@ import { ApiService } from '../api.service';
   styleUrls: ['./addcourse.component.css']
 })
 export class AddcourseComponent {
+
 courseTitle=""
 courseDescription=""
 courseDuration=""
@@ -16,7 +17,7 @@ courseVenue=""
 constructor(private api:ApiService){}
 readValues=()=>
 {
-  let data:any={"Course":this.courseTitle,"Describe":this.courseDescription,"Duration":this.courseDuration,"Date":this.courseDate,"Venue":this.courseVenue}
+  let data:any={"courseTitle":this.courseTitle,"courseDescription":this.courseDescription,"courseDuration":this.courseDuration,"courseDate":this.courseDate,"courseVenue":this.courseVenue}
   console.log(data)
   this.api.addcourse(data).subscribe(
     (response:any)=>{
